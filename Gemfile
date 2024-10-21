@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.0'
+gem 'rails', '6.1.7.9'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -8,12 +8,12 @@ gem 'rails', '3.2.0'
 gem 'sqlite3'
 gem 'client_side_validations', '3.2.0.beta.3', :git => 'https://github.com/bcardarella/client_side_validations.git'
 gem 'simple_form', '2.0'
-gem "twitter-bootstrap-rails"
+gem "twitter-bootstrap-rails", ">= 2.1.6"
 
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
+  gem 'sass-rails', '~> 6.0.0'
   gem 'coffee-rails', '~> 3.2.1'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
